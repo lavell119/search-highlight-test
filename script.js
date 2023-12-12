@@ -4,5 +4,7 @@ console.log (paragraphs)
 
 
 paragraphs.forEach(p => {
-    p.innerHTML= "efmlelfm"
+    currentContent=p.innerHTML
+    p.innerHTML= "jjjj" + currentContent + "llllls"
+    
 })
